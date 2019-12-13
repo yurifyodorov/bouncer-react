@@ -8,6 +8,8 @@ import Bestseller from '../Bestseller/Bestseller';
 import MainOffer from '../MainOffer/MainOffer';
 import Advantages from '../Advantages/Advantages';
 import LatestNews from '../LatestNews/LatestNews';
+import FeaturedProducts from '../FeaturedProducts/FeaturedProducts';
+import Search from '../Search/Search';
 
 const MainPage: React.FC = () => {
     return (
@@ -18,6 +20,8 @@ const MainPage: React.FC = () => {
             <MainOffer />
             <Advantages />
             <LatestNews />
+            <FeaturedProducts />
+            <Search />
         </>
     )
 }

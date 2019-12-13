@@ -1,3 +1,8 @@
+
+.grid {
+  display: grid;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -108,4 +113,63 @@ h2 {
 
 .nav_main .active {
   color: #33a0ff;
+}
+
+footer {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  /* sass компилятор не понимает repeat() */
+  grid-template-rows: 1fr 250px 93px;
+  grid-column-gap: 80px;
+}
+
+footer .block-one {
+  grid-column: 1 / 3;
+  color: #22262A;
+}
+
+footer .block-two {
+  grid-column: 3 / 5;
+  margin-top: 10px;
+  color: #22262A;
+}
+
+footer .block-two .social {
+  margin-right: 40px;
+}
+
+footer .block-three {
+  grid-column: 5 / 7;
+  margin-top: 10px;
+  color: #22262A;
+}
+
+footer .links {
+  align-self: center;
+}
+
+footer .links b {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #22262A;
+}
+
+footer .links a {
+  display: block;
+  color: #26262A;
+  font-size: 14px;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.bottom-line {
+  display: flex;
+  grid-column: 1 / -1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-line .copy {
+  font-size: 14px;
+  color: #C1C8CE;
 }
