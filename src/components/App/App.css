@@ -51,8 +51,22 @@ header {
   margin-right: 58px;
 }
 
-.cart-link {
-  margin-right: 0;
+.cart-link,
+.profile-link {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  display: inline;
+  margin: 0;
+  padding: 10px;
+}
+
+.cart-link:hover,
+.profile-link:hover,
+.cart-link:focus,
+.profile-link:focus {
+text-decoration: none;
 }
 
 .cart-total {
