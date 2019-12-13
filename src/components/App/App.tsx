@@ -6,6 +6,7 @@ import logo from '../../img/logo.svg';
 import account from '../../img/profile_close_2.svg';
 import cart from '../../img/bag_3.svg';
 import search from '../../img/search-icon.svg';
+
 import {
     BrowserRouter as Router,
     Switch,
@@ -48,7 +49,7 @@ const App: React.FC = () => {
                             <img src={search} alt="search-icon" />
                         </div>
                     </div>
-                    <img src={logo} className="App-logo" alt="logo-bouncer" />
+                    <img src={logo} className="logo" alt="logo-bouncer" />
                     <nav className="nav nav_main">
                         <Link to="/" className="nav-link active">Home</Link>
                         <Link to="/store" className="nav-link">Store</Link>

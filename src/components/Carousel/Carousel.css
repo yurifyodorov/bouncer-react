@@ -1,0 +1,35 @@
+.slider {
+    display: flex;
+    height: 650px;
+    background-image: linear-gradient(63deg, #ff4858 -25%, #8f65ff 118%);
+  }
+  
+  .slider .slide-description {
+    padding-top: 161px;
+    color: white;
+  }
+  
+  .slider .slide-title {
+    font-weight: bold;
+    font-size: 36px;
+  }
+  
+  .slider .slide-text {
+    margin: 40px 0;
+    line-height: 22px;
+    font-size: 14px;
+  }
+  
+  .slider .slide-link {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: inline;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    border-bottom: 3px solid white;
+  }
