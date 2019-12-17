@@ -1,0 +1,12 @@
+header {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #FAFAFB;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
