@@ -4,8 +4,27 @@
 }
 
 .nav_bestseller {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
   width: 478px;
   margin-bottom: 16px;
+  margin: 0 auto;
+}
+
+.nav-link {
+  display: flex;
+  text-decoration: none;
+  line-height: 50px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  color: #26262a;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.nav_bestseller .active {
+  color: #33a0ff;
 }
 
 .products {
@@ -125,4 +144,32 @@
 
 .product-rating .star.active {
   color: #ffc600;
+}
+
+
+@media (max-width: 500px) {
+
+  .nav_bestseller {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-link {
+    padding: 0;
+  }
+
+  .products {
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+
+  .product-card {
+    width: 100%;
+    padding: 38px 0 30px 0;
+    height: 200px;
+    border: 4px solid #f6f7f8;
+    text-align: center;
+    position: relative;
+  }
 }

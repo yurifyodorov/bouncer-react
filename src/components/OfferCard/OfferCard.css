@@ -88,3 +88,45 @@
 .offer-card .price {
   font-size: 24px;
 }
+
+@media (max-width: 1023px) {
+
+  .top-gadgets {
+    background-color: red;
+  }
+
+  .offer-card {
+    padding: 10px;
+    height: 120px;
+  }
+
+  .offer-card .card-title {
+    font-size: 18px;
+  }
+
+  .offer-card .price {
+    font-size: 18px;
+  }
+
+  .offer-card .card-text {
+    display: none;
+  }
+
+  .offer-card .card-image {
+    width: 100px;
+  }
+
+  .offer-card:nth-child(2) .card-title {
+    position: static;
+  }
+
+  .offer-card:nth-child(2) .card-image {
+    margin-top: -25px;
+  }
+
+  .offer-card:last-child .card-image {
+    width: 80px;
+    right: 0;
+  }
+
+}

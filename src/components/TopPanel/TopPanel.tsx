@@ -10,28 +10,30 @@ const TopPanel: React.FC = () => {
     return (
         <div className="top-panel">
             <div className="controls-left">
-                <span className="lang">EN</span>
-                <span className="currency">USD</span>
+                <button className="lang-toggle">EN</button>
+                <button className="currency-toggle">USD</button>
             </div>
             <div className="controls-right">
 
-                    <button type="button" className="account-controls profile-link">
-                        <img src={account} alt="account-icon" />
-                        <span>My profile</span>
-                    </button>
+                <button className="account">
+                    <img src={account} alt="account-icon" className="account-icon" />
+                    <span>My profile</span>
+                </button>
 
-                    <button type="button" className="cart-controls cart-link">
-                        <img src={cart} alt="cart-icon" />
-                        <span>0 Items</span>
-                        <span className="cart-total">$0.00</span>
-                    </button>
-                    
-                    <button type="button" className="search">
-                        <img src={search} alt="search-icon" />
-                     </button>
-                </div>
-                
+                <button className="cart">
+                    <img src={cart} alt="cart-icon" className="cart-icon" />
+                    <span>0 Items</span>
+                    <span className="cart-total">$0.00</span>
+                </button>
+
+                <button className="search-btn">
+                    <img src={search} alt="search-icon" />
+                </button>
+
+                <button className="toggle-burger"></button>
             </div>
+
+        </div>
     )
 }
 

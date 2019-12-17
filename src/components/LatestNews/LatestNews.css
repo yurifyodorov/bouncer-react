@@ -37,3 +37,13 @@
 .latest-news .news-link .news-description .news-text {
   font-size: 14px;
 }
+
+@media (max-width: 500px) {
+  .latest-news {
+    width: 100%;
+  }
+
+  .latest-news .news-link img {
+    display: none;
+  }
+}

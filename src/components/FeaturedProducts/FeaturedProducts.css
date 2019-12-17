@@ -55,3 +55,13 @@
   text-decoration: line-through;
   margin-left: 10px;
 }
+
+@media (max-width: 500px) {
+  .featured-products {
+    width: 100%;
+  }
+
+  .featured-products .featured-product img {
+    display: none;
+  }
+}

@@ -29,3 +29,9 @@
 .search button:hover {
   background-color: skyblue;
 }
+
+@media (max-width: 500px) {
+  .search input {
+    width: 200px;
+  }
+}

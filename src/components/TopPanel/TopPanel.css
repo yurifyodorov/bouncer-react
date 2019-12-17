@@ -1,52 +1,21 @@
 .top-panel {
-    display: flex;
-    justify-content: space-between;
-    box-sizing: border-box;
-    border-bottom: 1px solid #fafafb;
-    background-color: orange;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  height: 50px;
 }
 
-.top-panel .controls-left,
-.top-panel .controls-right {
-    display: flex;
-    line-height: 47px;
+.controls-left,
+.controls-right {
+  display: flex;
+  line-height: 50px;
 }
 
-.cart-controls,
-.account-controls,
-.lang,
-.currency {
-  margin-left: 0.5px;
-  margin-right: 0.5px;
-}
-
-.top-panel .lang {
-  width: 50px;
-  text-align: center;
-}
-
-.top-panel .currency {
-    width: 80px;
-    text-align: center;
-  }
-
-.top-panel .profile-link,
-.top-panel .cart-link {
-  display: inherit;
-  font-weight: 600;
-}
-
-.profile-link > img,
-.cart-link > img {
-  margin-right: 10px;
-}
-
-.cart-controls {
-  margin-right: 58px;
-}
-
-.cart-link,
-.profile-link {
+.lang-toggle,
+.currency-toggle,
+.cart,
+.account,
+.search-btn {
   display: inline;
   font-size: 14px;
   background-color: transparent;
@@ -56,13 +25,45 @@
   color: #26262a;
   margin: 0;
   padding: 10px;
+  margin-left: 0.5px;
+  margin-right: 0.5px;
 }
 
-.cart-link:hover,
-.profile-link:hover,
-.cart-link:focus,
-.profile-link:focus {
+.cart {
+  width: 209px;
+}
+
+.account-icon,
+.cart-icon {
+  margin-right: 10px;
+}
+
+.lang-toggle:hover,
+.currency-toggle:hover,
+.cart:hover,
+.account:hover,
+.search-btn:hover,
+.lang-toggle:focus,
+.currency-toggle:focus,
+.cart:focus,
+.account:focus,
+.search-btn:focus {
   text-decoration: underline;
+  background-color: white;
+}
+
+.lang-toggle {
+  width: 50px;
+  text-align: center;
+}
+
+.currency-toggle {
+  width: 80px;
+  text-align: center;
+}
+
+.toggle-burger {
+  display: none;
 }
 
 .cart-total {
@@ -71,27 +72,48 @@
   font-size: 14px;
 }
 
-.search {
-  display: inline-block;
-  width: 50px;
-}
-
-.search-icon {
-  width: 50px;
-}
-
-.cart-link,
-.profile-link,
-.cart-controls,
-.account-controls,
-.lang,
-.currency,
-.search-icon {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
 @media (max-width: 1023px) {
-    .top-panel .controls-right {
-        margin-right: 50px;
-    }
+  .controls-right {
+    margin-right: 50px;
+  }
+
+  .toggle-burger {
+    display: block;
+    position: absolute;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    -webkit-transition: 2s;
+    transition: 2s;
+    border: none;
+    outline: none;
+    background: none;
+    padding-bottom: 5px;
+    cursor: pointer;
+    font-size: 2em;
+  }
+
+  .toggle-burger::before {
+    content: "\2630";
+  }
+
+  .toggle-cross::before {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100px;
+    line-height: 100px;
+    content: "\2715";
+  }
+}
+
+@media (max-width: 500px) {
+  .lang-toggle,
+  .currency-toggle,
+  .cart,
+  .account,
+  .search-btn {
+    display: none;
+  }
 }
