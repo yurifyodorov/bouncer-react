@@ -14,14 +14,14 @@ import Search from '../Search/Search';
 const MainPage: React.FC = () => {
     return (
         <>
-            <Carousel />
+            {/* <Carousel />
             <OfferCard />
             <Bestseller />
             <MainOffer />
             <Advantages />
             <LatestNews />
             <FeaturedProducts />
-            <Search />
+            <Search /> */}
         </>
     )
 }
