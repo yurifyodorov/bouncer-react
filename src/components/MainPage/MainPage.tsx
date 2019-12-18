@@ -3,7 +3,7 @@ import React from 'react';
 import './MainPage.scss';
 
 import Carousel from '../Carousel/Carousel';
-import OfferCard from '../OfferCard/OfferCard';
+import TopGadgets from '../TopGadgets/TopGadgets';
 import Bestseller from '../Bestseller/Bestseller';
 import MainOffer from '../MainOffer/MainOffer';
 import Advantages from '../Advantages/Advantages';
@@ -15,7 +15,7 @@ const MainPage: React.FC = () => {
     return (
         <>
             <Carousel />
-            <OfferCard />
+            <TopGadgets />
             <Bestseller />
             <MainOffer />
             <Advantages />
