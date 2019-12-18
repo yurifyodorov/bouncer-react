@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
+  height: 50px;
   line-height: 50px;
 }
 
@@ -66,7 +67,7 @@
   padding-left: 10px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) { // не трогать!!!
 
   .lang-toggle,
   .currency-toggle,

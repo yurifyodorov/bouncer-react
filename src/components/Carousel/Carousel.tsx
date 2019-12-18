@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Carousel.css';
+import './Carousel.scss';
 
 import iPhoneX from '../../img/iphonex.svg';
 
@@ -13,7 +13,7 @@ const Carousel: React.FC = () => {
                 <div className="slide__title">iPhone X</div>
                 <div className="slide__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</div>
                 <button type="button" className="slide-link">MORE</button>
-            </div>    
+            </div>
             <img src={iPhoneX} alt="iPhoneX" className="slide__image" />
         </div>
 
