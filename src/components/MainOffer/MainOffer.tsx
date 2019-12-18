@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './MainOffer.css';
+import './MainOffer.scss';
 
 import iphone6s from '../../img/iPhone6s_discover_desktop_08_iOS9.svg'; 
 

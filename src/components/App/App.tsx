@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './App.css';
-import './Menu.css';
-import './Footer.css';
+import './App.scss';
+import './Menu.scss';
+import './Footer.scss';
 
 import {
     BrowserRouter as Router,

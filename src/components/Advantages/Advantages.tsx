@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Advantages.css';
+import './Advantages.scss';
 
 import shipping from '../../img/shipping.svg';
 import refund from '../../img/refund.svg';

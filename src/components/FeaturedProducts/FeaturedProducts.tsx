@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './FeaturedProducts.css';
+import './FeaturedProducts.scss';
 
 import product1 from '../../img/product1.svg';
 import product2 from '../../img/product2.svg';

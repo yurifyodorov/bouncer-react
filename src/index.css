@@ -38,6 +38,8 @@ body {
   font-family: "Proxima Nova Rg";
   margin: 0;
   color: #26262a;
+  background: #E4E0E0;
+  height: 2000px; /* временно */
 }
 
 header,

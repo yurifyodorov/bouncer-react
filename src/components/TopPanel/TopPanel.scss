@@ -2,13 +2,12 @@
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
-  height: 50px;
+  line-height: 50px;
 }
 
 .controls-left,
 .controls-right {
   display: flex;
-  line-height: 50px;
 }
 
 .lang-toggle,
@@ -16,26 +15,33 @@
 .cart,
 .account,
 .search-btn {
-  display: inline;
+  display: flex;
+  align-items: stretch;
   font-size: 14px;
   background-color: transparent;
   border: none;
   cursor: pointer;
   text-decoration: none;
   color: #26262a;
+  min-width: 30px;
+  line-height: inherit;
   margin: 0;
-  padding: 10px;
-  margin-left: 0.5px;
-  margin-right: 0.5px;
+  padding-right: 10px;
 }
 
-.cart {
-  width: 209px;
+.account::before {
+  content: url(../../img/profile_close_2.svg);
+  min-width: inherit;
 }
 
-.account-icon,
-.cart-icon {
-  margin-right: 10px;
+.cart::before {
+  content: url(../../img/bag_3.svg);
+  min-width: inherit;
+}
+
+.search-btn::before {
+  content: url(../../img/search-icon.svg);
+  min-width: inherit;
 }
 
 .lang-toggle:hover,
@@ -48,18 +54,7 @@
 .cart:focus,
 .account:focus,
 .search-btn:focus {
-  text-decoration: underline;
-  background-color: white;
-}
-
-.lang-toggle {
-  width: 50px;
-  text-align: center;
-}
-
-.currency-toggle {
-  width: 80px;
-  text-align: center;
+  background-color: silver;
 }
 
 .toggle-burger {
@@ -68,11 +63,19 @@
 
 .cart-total {
   opacity: 0.5;
-  margin-left: 10px;
-  font-size: 14px;
+  padding-left: 10px;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 500px) {
+
+  .lang-toggle,
+  .currency-toggle,
+  .cart,
+  .account,
+  .search-btn {
+    display: none;
+  }
+
   .controls-right {
     margin-right: 50px;
   }
@@ -105,15 +108,5 @@
     width: 100px;
     line-height: 100px;
     content: "\2715";
-  }
-}
-
-@media (max-width: 500px) {
-  .lang-toggle,
-  .currency-toggle,
-  .cart,
-  .account,
-  .search-btn {
-    display: none;
   }
 }

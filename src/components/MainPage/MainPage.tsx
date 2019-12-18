@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './MainPage.css';
+import './MainPage.scss';
 
 import Carousel from '../Carousel/Carousel';
 import OfferCard from '../OfferCard/OfferCard';

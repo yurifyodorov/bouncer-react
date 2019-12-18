@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Bestseller.css';
+import './Bestseller.scss';
 
 const Bestseller: React.FC = () => {
     return (

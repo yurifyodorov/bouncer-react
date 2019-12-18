@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './OfferCard.css';
+import './OfferCard.scss';
 
 import iphone6 from '../../img/pic_small.svg';
 import oculus from '../../img/Oculus-Rift-profile_grande.svg';
