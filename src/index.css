@@ -48,3 +48,7 @@ footer {
   box-sizing: border-box;
   padding: 0 calc(50vw - (1170px + 17px) / 2);
 }
+
+img {
+  background-color: rgba(0, 0, 0, 0.3);  
+}
