@@ -11,7 +11,7 @@ const Carousel: React.FC = () => {
         <div className="slide">
             <div className="slide__description">
                 <div className="slide__title">iPhone X</div>
-                <div className="slide__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</div>
+                <div className="slide__text">Превосходная аппаратура! <br/><br/>  Закажи онлайн без регистрации и СМС с кэшбэком 50% по карте GTB Platinum.</div>
                 <button type="button" className="slide__link">MORE</button>
             </div>
             <img src={iPhoneX} alt="iPhoneX" className="slide__image" />
