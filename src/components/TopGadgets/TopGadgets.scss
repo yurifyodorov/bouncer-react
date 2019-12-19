@@ -1,129 +1,67 @@
 .top-gadgets {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(auto, 33.33%));
+  margin-top: -55px;
 }
 
 .card {
-  width: 33.33%;
-  height: 280px;
-  color: #26262a;
-  text-decoration: none;
   position: relative;
-  margin-top: -55px;
-  margin-right: 2px;
+  display: flex;
+  justify-content: center;
+  height: 0;
+  padding-bottom: 72%; // 100% - это квадрат
+  background: #eee;
 
-//   &__title {
-//     background-color: green;
-//     position: absolute;
-//     z-index: 1;
-//     width: 100%;
-//   }
+  &__title {
+    background-color: green;
+  }
 
-//   &__text {
-//     position: absolute;
-//     z-index: 1;
-//     width: 100%;
-//   }
+  &__text {
+    display: none;
+  }
 
-//   &__price {
-//     position: absolute;
-//     z-index: 1;
-//     width: 100%;
-//   }
+  &__price {
+    display: none;
+  }
 
-//   &__image {
-//     width: 100%;
-//     height: inherit;
-//     position: absolute;
-//     top: 0;
-//     right: 0;
-//     bottom: 0;
-//     left: 0;
-//   }
+  &__image {
+    position: absolute;
+  }
 }
 
 .card:nth-child(1) {
   background-color: #ff6875;
+
+  .card__image {
+    width: 75%;
+    right: 0;
+    bottom: 0;
+  }
 }
 
 .card:nth-child(2) {
   background-color: #f6f7f8;
+
+  .card__image {
+    width: 70%;
+    height: 100%;
+    left: 15%;
+    bottom: 10px;
+  }
 }
 
 .card:nth-child(3) {
   background-color: #c1c8ce;
+
+  .card__image {
+    width: 50%;
+    right: 7%;
+    bottom: 9%;
+  }
 }
 
-.card:first-child {
-  background-color: #ff6875;
-  color: white;
-}
-
-.card:first-child .card__text {
-  width: 220px;
-}
-
-.card:first-child .card__image {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-}
-
-.card:first-child .price {
-  color: #ffffff;
-  opacity: 0.75;
-}
-
-.card:nth-child(2) {
-  position: relative;
-}
-
-.card:nth-child(2) .card__title {
-  position: absolute;
-  bottom: 30px;
-  left: 30px;
-}
-
-.card:nth-child(2) .card__image {
-  margin-top: -80px;
-}
-
-.card:nth-child(2) .card__price {
-  position: absolute;
-  bottom: 30px;
-  right: 30px;
-  color: #22262a;
-}
-
-.card:last-child {
-  background-color: #c1c8ce;
-}
-
-.card:last-child .card__text {
-  width: 160px;
-}
-
-.card:last-child .card__image {
-  position: absolute;
-  right: -20px;
-  bottom: 20px;
-}
-
-.card:last-child .card__price {
-  opacity: 0.75;
-  color: #22262a;
-}
-
-.card .card__title {
-  font-weight: bold;
-  font-size: 24px;
-}
-
-.card .card__text {
-  font-size: 12px;
-  line-height: 20px;
-  margin: 20px 0;
-}
-
-.card .card__price {
-  font-size: 24px;
+@media (max-width: 1170px) {
+  .top-gadgets {
+    margin-top: 0;
+  }
 }
