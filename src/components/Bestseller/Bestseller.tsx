@@ -2,6 +2,8 @@ import React from 'react';
 
 import './Bestseller.scss';
 
+import ProductCard from '../ProductCard/ProductCard';
+
 const Bestseller: React.FC = () => {
     return (
         <section className="bestseller">
@@ -16,171 +18,16 @@ const Bestseller: React.FC = () => {
             </nav>
 
             <div className="products">
-                <div className="product-card">1</div>
-                <div className="product-card">2</div>
-                <div className="product-card">3</div>
-                <div className="product-card">4</div>
-                <div className="product-card">5</div>
-                <div className="product-card">6</div>
-                <div className="product-card">7</div>
-                <div className="product-card">8</div>
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
             </div>
 
-            {/* <div className="products" id="product-cards-holder">
-                <div className="product-card">
-                    <span className="hot-icon">hot</span>
-                    <img className="product-image" src="img/macbook-pro.svg" alt="macbook-pro" />
-                    <div className="product-controls">
-                        <button className="like"></button>
-                        <button className="add-to-cart"></button>
-                    </div>
-                    <div className="product-title">Apple Macbook Pro</div>
-                    <div className="product-rating">
-                        <span className="star active"></span>
-                        <span className="star active"></span>
-                        <span className="star active"></span>
-                        <span className="star active"></span>
-                        <span className="star"></span>
-                    </div>
-                    <div className="product-price">
-                        <span className="new-price">$499</span>
-                        <span className="old-price">$599</span>
-                    </div>
-                </div>
-                <div className="product-card">
-                    <img className="product-image" src="img/macbook-pro.svg" alt="macbook-pro" />
-                    <div className="product-controls">
-                        <button className="like"></button>
-                        <button className="add-to-cart"></button>
-                    </div>
-                    <div className="product-title">Apple Macbook Pro</div>
-                    <div className="product-rating">
-                        <span className="star active"></span>
-                        <span className="star active"></span>
-                        <span className="star active"></span>
-                        <span className="star active"></span>
-                        <span className="star"></span>
-                    </div>
-                    <div className="product-price">
-                        <span className="new-price">$499</span>
-                        <span className="old-price">$599</span>
-                    </div>
-                </div>
-                <div className="product-card">
-                    <img className="product-image" src="img/macbook-pro.svg" alt="macbook-pro" />
-                    <div className="product-controls">
-                        <button className="like"></button>
-                        <button className="add-to-cart"></button>
-                    </div>
-                    <div className="product-title">Apple Macbook Pro</div>
-                    <div className="product-rating">
-                        <span className="star active"></span>
-                        <span className="star active"></span>
-                        <span className="star active"></span>
-                        <span className="star active"></span>
-                        <span className="star"></span>
-                    </div>
-                    <div className="product-price">
-                        <span className="new-price">$499</span>
-                        <span className="old-price">$599</span>
-                    </div>
-                </div>
-                <div className="product-card">
-                    <img className="product-image" src="img/macbook-pro.svg" alt="macbook-pro" />
-                    <div className="product-controls">
-                        <button className="like"></button>
-                        <button className="add-to-cart"></button>
-                    </div>
-                    <div className="product-title">Apple Macbook Pro</div>
-                    <div className="product-rating">
-                        <span className="star active"></span>
-                        <span className="star active"></span>
-                        <span className="star active"></span>
-                        <span className="star active"></span>
-                        <span className="star"></span>
-                    </div>
-                    <div className="product-price">
-                        <span className="new-price">$499</span>
-                        <span className="old-price">$599</span>
-                    </div>
-                </div>
-                <div className="product-card">
-                    <img className="product-image" src="img/macbook-pro.svg" alt="macbook-pro" />
-                    <div className="product-controls">
-                        <button className="like"></button>
-                        <button className="add-to-cart"></button>
-                    </div>
-                    <div className="product-title">Apple Macbook Pro</div>
-                    <div className="product-rating">
-                        <span className="star active"></span>
-                        <span className="star active"></span>
-                        <span className="star active"></span>
-                        <span className="star active"></span>
-                        <span className="star"></span>
-                    </div>
-                    <div className="product-price">
-                        <span className="new-price">$499</span>
-                        <span className="old-price">$599</span>
-                    </div>
-                </div>
-                <div className="product-card">
-                    <img className="product-image" src="img/macbook-pro.svg" alt="macbook-pro" />
-                    <div className="product-controls">
-                        <button className="like"></button>
-                        <button className="add-to-cart"></button>
-                    </div>
-                    <div className="product-title">Apple Macbook Pro</div>
-                    <div className="product-rating">
-                        <span className="star active"></span>
-                        <span className="star active"></span>
-                        <span className="star active"></span>
-                        <span className="star active"></span>
-                        <span className="star"></span>
-                    </div>
-                    <div className="product-price">
-                        <span className="new-price">$499</span>
-                        <span className="old-price">$599</span>
-                    </div>
-                </div>
-                <div className="product-card">
-                    <img className="product-image" src="img/macbook-pro.svg" alt="macbook-pro" />
-                    <div className="product-controls">
-                        <button className="like"></button>
-                        <button className="add-to-cart"></button>
-                    </div>
-                    <div className="product-title">Apple Macbook Pro</div>
-                    <div className="product-rating">
-                        <span className="star active"></span>
-                        <span className="star active"></span>
-                        <span className="star active"></span>
-                        <span className="star active"></span>
-                        <span className="star"></span>
-                    </div>
-                    <div className="product-price">
-                        <span className="new-price">$499</span>
-                        <span className="old-price">$599</span>
-                    </div>
-                </div>
-                <div className="product-card">
-                    <img className="product-image" src="img/macbook-pro.svg" alt="macbook-pro" />
-                    <div className="product-controls">
-                        <button className="like"></button>
-                        <button className="add-to-cart"></button>
-                    </div>
-                    <div className="product-title">Apple Macbook Pro</div>
-                    <div className="product-rating">
-                        <span className="star active"></span>
-                        <span className="star active"></span>
-                        <span className="star active"></span>
-                        <span className="star active"></span>
-                        <span className="star"></span>
-                    </div>
-                    <div className="product-price">
-                        <span className="new-price">$499</span>
-                        <span className="old-price">$599</span>
-                    </div>
-                </div>
-            </div> */}
             <button type="button" className="load-link">Load more</button>
         </section>
     )
