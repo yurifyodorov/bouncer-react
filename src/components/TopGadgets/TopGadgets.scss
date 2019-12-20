@@ -10,27 +10,44 @@
   justify-content: center;
   height: 0;
   padding-bottom: 72%; // 100% - это квадрат
+  overflow: hidden;
   background: #eee;
-
-  &__title {
-    background-color: green;
-  }
-
-  &__text {
-    display: none;
-  }
-
-  &__price {
-    display: none;
-  }
 
   &__image {
     position: absolute;
   }
 }
 
+.card__description {
+  position: absolute;
+  overflow: hidden;
+  color: black;
+  padding-top: 8%;
+  padding-left: 8%;
+  z-index: 1;
+
+  .card-title {
+    display: inline-block;
+    padding-right: 30px;
+  }
+
+  .card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: min-content;
+  }
+}
+
 .card:nth-child(1) {
   background-color: #ff6875;
+
+  .card__description {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 65%;
+    height: 80%;
+  }
 
   .card__image {
     width: 75%;
@@ -41,6 +58,13 @@
 
 .card:nth-child(2) {
   background-color: #f6f7f8;
+
+  .card__description {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 25%;
+  }
 
   .card__image {
     width: 70%;
@@ -53,8 +77,16 @@
 .card:nth-child(3) {
   background-color: #c1c8ce;
 
+  .card__description {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 48%;
+    height: 100%;
+  }
+
   .card__image {
-    width: 50%;
+    width: 45%;
     right: 7%;
     bottom: 9%;
   }
@@ -64,4 +96,56 @@
   .top-gadgets {
     margin-top: 0;
   }
+}
+
+@media (max-width: 815px) {
+
+  .card {
+    padding-bottom: 100%;
+  }
+
+  .card__description {
+    padding: 10%;
+    color: white;
+
+    .card-text {
+      margin: 5px 0;
+      white-space: nowrap;
+    }
+  }
+
+  .card:nth-child(1),
+  .card:nth-child(2),
+  .card:nth-child(3) {
+
+    .card__description {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(49deg, rgba(2,0,36,1) 0%, rgba(255,255,255,0) 100%);
+    }
+
+    .card__image {
+      width: 100%;
+      height: 100%;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      padding: 5%;
+    }
+  }
+
+  .card:nth-child(1) {
+    .card__image {
+      width: 112%;
+      height: 110%;
+      right: -50px;
+      bottom: -20px;
+      padding-right: 0;
+    }
+  }
+  
 }

@@ -10,22 +10,28 @@ const TopGadgets: React.FC = () => {
     return (
         <section className="top-gadgets ">
             <a href={'/iphone6'} className="card">
-                <div className="card__title">iPhone 6</div>
-                <div className="card__text">Lorem Ipsum dolor sit amet, consectetur adipiscing elit, labor</div>
-                <div className="card__price">$399</div>
+                <div className="card__description">
+                    <span className="card-title">iPhone 6</span>
+                    <p className="card-text">Lorem Ipsum dolor sit amet, consectetur adipiscing elit, labor</p>
+                    <span className="card-price">$399</span>
+                </div>
                 <img src={iphone6} alt="iPhone 6" className="card__image" />
             </a>
 
             <a href={'/iphone6'} className="card">
+                <div className="card__description">
+                    <span className="card-title">Oculus Rift</span>
+                    <span className="card-price">$349</span>
+                </div>
                 <img src={oculus} alt="Oculus-Rift-profile_grande" className="card__image" />
-                <span className="card__title">Oculus Rift</span>
-                <span className="card__price">$349</span>
             </a>
 
             <a href={'/iphone6'} className="card">
-                <div className="card__title">iPhone 6</div>
-                <div className="card__text">Lorem Ipsum dolor sit amet, consectetur adipiscing elit, labor</div>
-                <div className="card__price">$299</div>
+                <div className="card__description">
+                    <span className="card-title">iPhone 6</span>
+                    <p className="card-text">Lorem Ipsum dolor sit amet, consectetur adipiscing elit, labor</p>
+                    <span className="card-price">$299</span>
+                </div>
                 <img src={gopro} alt="GoPro-Hero-6" className="card__image" />
             </a>
         </section>
