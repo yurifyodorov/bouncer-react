@@ -14,7 +14,19 @@ const Bestseller: React.FC = () => {
                 <a href={'/ipod'} className="nav-link">iPod</a>
                 <a href={'/accessories'} className="nav-link">Accessories</a>
             </nav>
-            <div className="products" id="product-cards-holder">
+
+            <div className="products">
+                <div className="product-card">1</div>
+                <div className="product-card">2</div>
+                <div className="product-card">3</div>
+                <div className="product-card">4</div>
+                <div className="product-card">5</div>
+                <div className="product-card">6</div>
+                <div className="product-card">7</div>
+                <div className="product-card">8</div>
+            </div>
+
+            {/* <div className="products" id="product-cards-holder">
                 <div className="product-card">
                     <span className="hot-icon">hot</span>
                     <img className="product-image" src="img/macbook-pro.svg" alt="macbook-pro" />
@@ -168,7 +180,7 @@ const Bestseller: React.FC = () => {
                         <span className="old-price">$599</span>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <button type="button" className="load-link">Load more</button>
         </section>
     )
