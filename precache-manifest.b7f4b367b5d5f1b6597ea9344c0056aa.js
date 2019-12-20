@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f180d47f72ffc6219502d6e743ed93e7",
+    "revision": "dba413b10a924fffdb60522009fa9966",
     "url": "/bouncer-react/index.html"
   },
   {
-    "revision": "ac851b4941a34e874f35",
-    "url": "/bouncer-react/static/css/main.8f2f4c32.chunk.css"
+    "revision": "c0ae86f502b0a4978e05",
+    "url": "/bouncer-react/static/css/main.75df1e6b.chunk.css"
   },
   {
-    "revision": "69d3e7aadf17a23fadab",
-    "url": "/bouncer-react/static/js/2.a5f11978.chunk.js"
+    "revision": "829d93a68828bf55c650",
+    "url": "/bouncer-react/static/js/2.aa88cb52.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/bouncer-react/static/js/2.a5f11978.chunk.js.LICENSE"
+    "url": "/bouncer-react/static/js/2.aa88cb52.chunk.js.LICENSE"
   },
   {
-    "revision": "ac851b4941a34e874f35",
-    "url": "/bouncer-react/static/js/main.3df448dc.chunk.js"
+    "revision": "c0ae86f502b0a4978e05",
+    "url": "/bouncer-react/static/js/main.9fbfe818.chunk.js"
   },
   {
     "revision": "ab83a0e5ef8e28198326",
@@ -98,6 +98,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6e6fe2e44e28d27723f1aa9a611e3a02",
     "url": "/bouncer-react/static/media/logo.6e6fe2e4.svg"
+  },
+  {
+    "revision": "38253f2b7f66997eaf43ca97cb58e08a",
+    "url": "/bouncer-react/static/media/macbook-pro.38253f2b.svg"
   },
   {
     "revision": "7162f7f88bbcc60f82267ec57cb13771",

@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/bouncer-react/static/css/main.8f2f4c32.chunk.css",
-    "main.js": "/bouncer-react/static/js/main.3df448dc.chunk.js",
-    "main.js.map": "/bouncer-react/static/js/main.3df448dc.chunk.js.map",
+    "main.css": "/bouncer-react/static/css/main.75df1e6b.chunk.css",
+    "main.js": "/bouncer-react/static/js/main.9fbfe818.chunk.js",
+    "main.js.map": "/bouncer-react/static/js/main.9fbfe818.chunk.js.map",
     "runtime-main.js": "/bouncer-react/static/js/runtime-main.10afe659.js",
     "runtime-main.js.map": "/bouncer-react/static/js/runtime-main.10afe659.js.map",
-    "static/js/2.a5f11978.chunk.js": "/bouncer-react/static/js/2.a5f11978.chunk.js",
-    "static/js/2.a5f11978.chunk.js.map": "/bouncer-react/static/js/2.a5f11978.chunk.js.map",
+    "static/js/2.aa88cb52.chunk.js": "/bouncer-react/static/js/2.aa88cb52.chunk.js",
+    "static/js/2.aa88cb52.chunk.js.map": "/bouncer-react/static/js/2.aa88cb52.chunk.js.map",
     "index.html": "/bouncer-react/index.html",
-    "precache-manifest.96089e1a0f7b2880ffe900727f2e51e8.js": "/bouncer-react/precache-manifest.96089e1a0f7b2880ffe900727f2e51e8.js",
+    "precache-manifest.b7f4b367b5d5f1b6597ea9344c0056aa.js": "/bouncer-react/precache-manifest.b7f4b367b5d5f1b6597ea9344c0056aa.js",
     "service-worker.js": "/bouncer-react/service-worker.js",
-    "static/css/main.8f2f4c32.chunk.css.map": "/bouncer-react/static/css/main.8f2f4c32.chunk.css.map",
-    "static/js/2.a5f11978.chunk.js.LICENSE": "/bouncer-react/static/js/2.a5f11978.chunk.js.LICENSE",
+    "static/css/main.75df1e6b.chunk.css.map": "/bouncer-react/static/css/main.75df1e6b.chunk.css.map",
+    "static/js/2.aa88cb52.chunk.js.LICENSE": "/bouncer-react/static/js/2.aa88cb52.chunk.js.LICENSE",
     "static/media/GoPro-Hero-6.svg": "/bouncer-react/static/media/GoPro-Hero-6.9ac06d2b.svg",
     "static/media/Oculus-Rift-profile_grande.svg": "/bouncer-react/static/media/Oculus-Rift-profile_grande.8ad114e1.svg",
     "static/media/Paypal.svg": "/bouncer-react/static/media/Paypal.90e9f48d.svg",
@@ -23,6 +23,7 @@
     "static/media/iphonex.svg": "/bouncer-react/static/media/iphonex.097821bd.svg",
     "static/media/logo-footer.svg": "/bouncer-react/static/media/logo-footer.358baa84.svg",
     "static/media/logo.svg": "/bouncer-react/static/media/logo.6e6fe2e4.svg",
+    "static/media/macbook-pro.svg": "/bouncer-react/static/media/macbook-pro.38253f2b.svg",
     "static/media/master-card.svg": "/bouncer-react/static/media/master-card.7162f7f8.svg",
     "static/media/news1.svg": "/bouncer-react/static/media/news1.7f3fb44d.svg",
     "static/media/news2.svg": "/bouncer-react/static/media/news2.e4ddf2f4.svg",
@@ -39,8 +40,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.10afe659.js",
-    "static/js/2.a5f11978.chunk.js",
-    "static/css/main.8f2f4c32.chunk.css",
-    "static/js/main.3df448dc.chunk.js"
+    "static/js/2.aa88cb52.chunk.js",
+    "static/css/main.75df1e6b.chunk.css",
+    "static/js/main.9fbfe818.chunk.js"
   ]
 }
