@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/bouncer-react/static/css/main.75df1e6b.chunk.css",
-    "main.js": "/bouncer-react/static/js/main.9fbfe818.chunk.js",
-    "main.js.map": "/bouncer-react/static/js/main.9fbfe818.chunk.js.map",
+    "main.css": "/bouncer-react/static/css/main.f43eddcc.chunk.css",
+    "main.js": "/bouncer-react/static/js/main.ea8ce258.chunk.js",
+    "main.js.map": "/bouncer-react/static/js/main.ea8ce258.chunk.js.map",
     "runtime-main.js": "/bouncer-react/static/js/runtime-main.10afe659.js",
     "runtime-main.js.map": "/bouncer-react/static/js/runtime-main.10afe659.js.map",
     "static/js/2.aa88cb52.chunk.js": "/bouncer-react/static/js/2.aa88cb52.chunk.js",
     "static/js/2.aa88cb52.chunk.js.map": "/bouncer-react/static/js/2.aa88cb52.chunk.js.map",
     "index.html": "/bouncer-react/index.html",
-    "precache-manifest.b7f4b367b5d5f1b6597ea9344c0056aa.js": "/bouncer-react/precache-manifest.b7f4b367b5d5f1b6597ea9344c0056aa.js",
+    "precache-manifest.cca7a359bdf8392a8c5183c54b51b080.js": "/bouncer-react/precache-manifest.cca7a359bdf8392a8c5183c54b51b080.js",
     "service-worker.js": "/bouncer-react/service-worker.js",
-    "static/css/main.75df1e6b.chunk.css.map": "/bouncer-react/static/css/main.75df1e6b.chunk.css.map",
+    "static/css/main.f43eddcc.chunk.css.map": "/bouncer-react/static/css/main.f43eddcc.chunk.css.map",
     "static/js/2.aa88cb52.chunk.js.LICENSE": "/bouncer-react/static/js/2.aa88cb52.chunk.js.LICENSE",
     "static/media/GoPro-Hero-6.svg": "/bouncer-react/static/media/GoPro-Hero-6.9ac06d2b.svg",
     "static/media/Oculus-Rift-profile_grande.svg": "/bouncer-react/static/media/Oculus-Rift-profile_grande.8ad114e1.svg",
@@ -19,7 +19,7 @@
     "static/media/Western-union.svg": "/bouncer-react/static/media/Western-union.b541362a.svg",
     "static/media/TopPanel.scss": "/bouncer-react/static/media/search-icon.ef848b50.svg",
     "static/media/facebook.svg": "/bouncer-react/static/media/facebook.46638595.svg",
-    "static/media/iPhone6s_discover_desktop_08_iOS9.svg": "/bouncer-react/static/media/iPhone6s_discover_desktop_08_iOS9.9a446370.svg",
+    "static/media/iPhone6s_discover_desktop_08_iOS9.svg": "/bouncer-react/static/media/iPhone6s_discover_desktop_08_iOS9.20a09949.svg",
     "static/media/iphonex.svg": "/bouncer-react/static/media/iphonex.097821bd.svg",
     "static/media/logo-footer.svg": "/bouncer-react/static/media/logo-footer.358baa84.svg",
     "static/media/logo.svg": "/bouncer-react/static/media/logo.6e6fe2e4.svg",
@@ -41,7 +41,7 @@
   "entrypoints": [
     "static/js/runtime-main.10afe659.js",
     "static/js/2.aa88cb52.chunk.js",
-    "static/css/main.75df1e6b.chunk.css",
-    "static/js/main.9fbfe818.chunk.js"
+    "static/css/main.f43eddcc.chunk.css",
+    "static/js/main.ea8ce258.chunk.js"
   ]
 }
