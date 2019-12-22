@@ -5,7 +5,7 @@ import './MainPage.scss';
 import Carousel from '../Carousel/Carousel';
 import TopGadgets from '../TopGadgets/TopGadgets';
 import Bestseller from '../Bestseller/Bestseller';
-import MainOffer from '../MainOffer/MainOffer';
+import Banner from '../Banner/Banner'; // test
 import Advantages from '../Advantages/Advantages';
 import LatestNews from '../LatestNews/LatestNews';
 import FeaturedProducts from '../FeaturedProducts/FeaturedProducts';
@@ -17,7 +17,7 @@ const MainPage: React.FC = () => {
             <Carousel />
             <TopGadgets />
             <Bestseller />
-            <MainOffer />
+            <Banner />
             <Advantages />
             <LatestNews />
             <FeaturedProducts />

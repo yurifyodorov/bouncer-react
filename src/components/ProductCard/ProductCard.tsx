@@ -10,8 +10,8 @@ const ProductCard: React.FC = () => {
             <span className="hot-icon">hot</span>
             <img src={product_image} className="product-image" alt="macbook-pro" />
             <div className="product-controls">
-                <button className="like"></button>
-                <button className="add-to-cart"></button>
+                <button className="like-btn">like</button>
+                <button className="add-btn">add</button>
             </div>
             <div className="product-title">Apple Macbook Pro</div>
             <div className="product-rating">
