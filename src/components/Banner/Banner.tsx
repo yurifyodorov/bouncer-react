@@ -2,7 +2,8 @@ import React from 'react';
 
 import './Banner.scss';
 
-import iphone6s from '../../img/iPhone6s_discover_desktop_08_iOS9.svg'; 
+import iphone6s from '../../img/iPhone6s.svg';
+
 
 const MainOfferNew: React.FC = () => {
   return (
@@ -11,10 +12,12 @@ const MainOfferNew: React.FC = () => {
         <div className="banner">
             <div className="banner__description">
                 <h2>iPhone 6 Plus</h2>
-                <p>Perfomance and design. Taken right to the edge.</p>
+                <p>Perfomance and design. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ratione totam consectetur ullam cumque. Fugit pariatur quibusdam voluptas facilis est, aut hic sed.</p>
                 <button type="button">SHOP NOW</button>
             </div>
-            <img src={iphone6s} alt="iPhoneX" className="banner__image" />
+            <picture className="banner__image">
+              <img src={iphone6s} alt="iPhoneX" />
+            </picture>
         </div>
 
     </section>
