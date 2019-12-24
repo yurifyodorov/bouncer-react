@@ -13,9 +13,8 @@ const Product: React.FC = () => {
             <img src={product_image} className="product__image" alt="macbook-pro" />
         </picture>
         <ul className="product__tags">
-            <li>лучшая цена</li>
-            <li>бесплатная доставка</li>
-            <li>1000 бонусов на карту</li>
+            <li>бесплатная достака</li>
+            <li>гарантия 10 лет</li>
         </ul> 
         <div className="product__rating">
             <ul>

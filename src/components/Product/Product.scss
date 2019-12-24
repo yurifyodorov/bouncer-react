@@ -16,15 +16,21 @@
 
   &__tags {
     display: flex;
-    flex-wrap: wrap;
     padding-inline-start: 0;
     list-style-type: none;
+    height: min-content;
+    background-color: #eee;
+    padding: 0 0.5px;
 
     li {
-      background-color: wheat;
+      height: 20px;
       font-size: 0.8em;
-      padding: 3px 10px;
-      margin: 2px;
+      padding: 1.5px 10px;
+      margin: 1px 0.5px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      background-color: #fff;
     }
   }
 
