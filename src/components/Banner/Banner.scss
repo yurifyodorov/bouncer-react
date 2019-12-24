@@ -1,22 +1,40 @@
 .main-offer-container {
   background-color: #2e90e5;
-  margin: 10px 0;
+  margin: 50px 0;
 }
 
 .banner {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-  grid-template-rows: repeat(3, max-content);
+  display: flex;
   position: relative;
+  width: 100%;
   height: 600px;
+
+  &__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    bottom: 0;
+    left: 0;
+    padding: 0 5%;
+  }
+
+  &__image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
 }
 
 .banner__image {
-  background-color: yellow;
-  height: inherit;
-  position: relative;
-
   img {
+    padding-left: 30%;
     width: 100%;
     height: 115%;
     position: absolute;
@@ -26,18 +44,20 @@
 }
 
 .banner__description {
-  height: inherit;
 
   h2 {
     display: inline-block;
     font-weight: bold;
     font-size: 36px;
     margin: 0;
+    color: white;
   }
 
   p {
+    max-width: 350px;
     line-height: 22px;
     font-size: 14px;
+    color: white;
   }
 
   button {
@@ -56,22 +76,57 @@
 }
 
 @media (max-width: 1170px) {
-  // .banner {
-  //   height: 400px;
-  // }
+  .banner {
+    height: 450px;
+  }
 
-  // .banner__image {
-  //   width: 50%;
-  //   height: 490px;
-  // }
+  .banner__description {
+    right: 0;
+
+    h2,
+    p,
+    button {
+      max-width: 270px;
+      z-index: 3;
+    }
+  }
+
+  .banner__image {
+    img {
+      width: 100%;
+    }
+  }
 }
 
-@media (max-width: 590px) {
-//   .slide {
-//     height: 350px;
-//   }
+@media (max-width: 850px) {
+  .banner__description::before {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    content: '';
+    background: linear-gradient(45deg, rgba(2,0,36,1) 40%, rgba(255,255,255,0) 80%);
+  }
+}
 
-//   .slide__image {
-//     padding-left: 5%;
-//   }
+@media (max-width: 520px) {
+
+  .banner {
+    height: 350px;
+  }
+
+  .banner__description {
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(30deg, rgba(2,0,36,1) 82%, rgba(255,255,255,0) 80%);
+  }
+
+  .banner__image {
+    img {
+      height: 400px;
+      padding-left: 0;
+      bottom: 0;
+    }
+  }
 }
