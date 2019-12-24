@@ -13,7 +13,7 @@ const ProductCard: React.FC = () => {
                 <button className="like-btn">like</button>
                 <button className="add-btn">add</button>
             </div>
-            <div className="product-title">Apple Macbook Pro</div>
+            <h3 className="product-title">Apple Macbook Pro</h3>
             <div className="product-rating">
                 <span className="star active"></span>
                 <span className="star active"></span>
