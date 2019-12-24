@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/bouncer-react/static/css/main.9310f2b9.chunk.css",
-    "main.js": "/bouncer-react/static/js/main.8e3b87c2.chunk.js",
-    "main.js.map": "/bouncer-react/static/js/main.8e3b87c2.chunk.js.map",
+    "main.css": "/bouncer-react/static/css/main.f523ab73.chunk.css",
+    "main.js": "/bouncer-react/static/js/main.f2731f76.chunk.js",
+    "main.js.map": "/bouncer-react/static/js/main.f2731f76.chunk.js.map",
     "runtime-main.js": "/bouncer-react/static/js/runtime-main.10afe659.js",
     "runtime-main.js.map": "/bouncer-react/static/js/runtime-main.10afe659.js.map",
     "static/js/2.6b1fc8eb.chunk.js": "/bouncer-react/static/js/2.6b1fc8eb.chunk.js",
     "static/js/2.6b1fc8eb.chunk.js.map": "/bouncer-react/static/js/2.6b1fc8eb.chunk.js.map",
     "index.html": "/bouncer-react/index.html",
-    "precache-manifest.f53da800f431f76b9c8493ce66ace178.js": "/bouncer-react/precache-manifest.f53da800f431f76b9c8493ce66ace178.js",
+    "precache-manifest.dafa802b68ca63899648d1cf032491a9.js": "/bouncer-react/precache-manifest.dafa802b68ca63899648d1cf032491a9.js",
     "service-worker.js": "/bouncer-react/service-worker.js",
-    "static/css/main.9310f2b9.chunk.css.map": "/bouncer-react/static/css/main.9310f2b9.chunk.css.map",
+    "static/css/main.f523ab73.chunk.css.map": "/bouncer-react/static/css/main.f523ab73.chunk.css.map",
     "static/js/2.6b1fc8eb.chunk.js.LICENSE": "/bouncer-react/static/js/2.6b1fc8eb.chunk.js.LICENSE",
     "static/media/GoPro-Hero-6.svg": "/bouncer-react/static/media/GoPro-Hero-6.9ac06d2b.svg",
     "static/media/Oculus-Rift-profile_grande.svg": "/bouncer-react/static/media/Oculus-Rift-profile_grande.8ad114e1.svg",
@@ -38,7 +38,7 @@
   "entrypoints": [
     "static/js/runtime-main.10afe659.js",
     "static/js/2.6b1fc8eb.chunk.js",
-    "static/css/main.9310f2b9.chunk.css",
-    "static/js/main.8e3b87c2.chunk.js"
+    "static/css/main.f523ab73.chunk.css",
+    "static/js/main.f2731f76.chunk.js"
   ]
 }
