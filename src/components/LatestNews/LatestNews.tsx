@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './LatestNews.css';
+import './LatestNews.scss';
 
 import news1 from '../../img/news1.svg';
 import news2 from '../../img/news2.svg';
