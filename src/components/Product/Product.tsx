@@ -7,7 +7,7 @@ import product_image from '../../img/macbook-pro.svg';
 const Product: React.FC = () => {
   return (
     <div className="product">
-        <h3>Apple MacBook Pro 13 with Touch Bar Серый космос Mid 2019 (Z0W4000MY)</h3>
+        <h3 className="product__title">Apple MacBook Pro 13 with Touch Bar Серый космос Mid 2019 (Z0W4000MY)</h3>
         <picture>
             <source srcSet={product_image}/>
             <img src={product_image} className="product__image" alt="macbook-pro" />
