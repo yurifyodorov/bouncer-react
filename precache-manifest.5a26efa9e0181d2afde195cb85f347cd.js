@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b0032a812ad7bacf2cc8597a65adf29f",
+    "revision": "35445061d768018f11da61e91656e27c",
     "url": "/bouncer-react/index.html"
   },
   {
-    "revision": "5e1c706ec141c8264db3",
-    "url": "/bouncer-react/static/css/main.f523ab73.chunk.css"
+    "revision": "fe54fc450acf7c87b9c5",
+    "url": "/bouncer-react/static/css/main.bbd76226.chunk.css"
   },
   {
     "revision": "367a84818320766767a3",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bouncer-react/static/js/2.6b1fc8eb.chunk.js.LICENSE"
   },
   {
-    "revision": "5e1c706ec141c8264db3",
-    "url": "/bouncer-react/static/js/main.f2731f76.chunk.js"
+    "revision": "fe54fc450acf7c87b9c5",
+    "url": "/bouncer-react/static/js/main.a608a134.chunk.js"
   },
   {
     "revision": "ab83a0e5ef8e28198326",
