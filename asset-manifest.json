@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/bouncer-react/static/css/main.2cfb9d4b.chunk.css",
-    "main.js": "/bouncer-react/static/js/main.2ebcb822.chunk.js",
-    "main.js.map": "/bouncer-react/static/js/main.2ebcb822.chunk.js.map",
+    "main.css": "/bouncer-react/static/css/main.f6c501ed.chunk.css",
+    "main.js": "/bouncer-react/static/js/main.f4e810b2.chunk.js",
+    "main.js.map": "/bouncer-react/static/js/main.f4e810b2.chunk.js.map",
     "runtime-main.js": "/bouncer-react/static/js/runtime-main.10afe659.js",
     "runtime-main.js.map": "/bouncer-react/static/js/runtime-main.10afe659.js.map",
-    "static/js/2.202974af.chunk.js": "/bouncer-react/static/js/2.202974af.chunk.js",
-    "static/js/2.202974af.chunk.js.map": "/bouncer-react/static/js/2.202974af.chunk.js.map",
+    "static/js/2.dfb3f21f.chunk.js": "/bouncer-react/static/js/2.dfb3f21f.chunk.js",
+    "static/js/2.dfb3f21f.chunk.js.map": "/bouncer-react/static/js/2.dfb3f21f.chunk.js.map",
     "index.html": "/bouncer-react/index.html",
-    "precache-manifest.c5b4ef5eae5fd50de56798b5b89bd37a.js": "/bouncer-react/precache-manifest.c5b4ef5eae5fd50de56798b5b89bd37a.js",
+    "precache-manifest.c9586348af28148060374e6fee7c6110.js": "/bouncer-react/precache-manifest.c9586348af28148060374e6fee7c6110.js",
     "service-worker.js": "/bouncer-react/service-worker.js",
-    "static/css/main.2cfb9d4b.chunk.css.map": "/bouncer-react/static/css/main.2cfb9d4b.chunk.css.map",
-    "static/js/2.202974af.chunk.js.LICENSE": "/bouncer-react/static/js/2.202974af.chunk.js.LICENSE",
+    "static/css/main.f6c501ed.chunk.css.map": "/bouncer-react/static/css/main.f6c501ed.chunk.css.map",
+    "static/js/2.dfb3f21f.chunk.js.LICENSE": "/bouncer-react/static/js/2.dfb3f21f.chunk.js.LICENSE",
     "static/media/GoPro-Hero-6.svg": "/bouncer-react/static/media/GoPro-Hero-6.9ac06d2b.svg",
     "static/media/Oculus-Rift-profile_grande.svg": "/bouncer-react/static/media/Oculus-Rift-profile_grande.8ad114e1.svg",
     "static/media/Paypal.svg": "/bouncer-react/static/media/Paypal.90e9f48d.svg",
@@ -29,6 +29,9 @@
     "static/media/news2.svg": "/bouncer-react/static/media/news2.e4ddf2f4.svg",
     "static/media/news3.svg": "/bouncer-react/static/media/news3.fcefb50a.svg",
     "static/media/pic_small.svg": "/bouncer-react/static/media/pic_small.d11431a6.svg",
+    "static/media/product1.svg": "/bouncer-react/static/media/product1.0b893847.svg",
+    "static/media/product2.svg": "/bouncer-react/static/media/product2.e0d4846a.svg",
+    "static/media/product3.svg": "/bouncer-react/static/media/product3.e1904bbb.svg",
     "static/media/refund.svg": "/bouncer-react/static/media/refund.b0d610c1.svg",
     "static/media/shipping.svg": "/bouncer-react/static/media/shipping.aebae132.svg",
     "static/media/support.svg": "/bouncer-react/static/media/support.cdb8f40d.svg",
@@ -37,8 +40,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.10afe659.js",
-    "static/js/2.202974af.chunk.js",
-    "static/css/main.2cfb9d4b.chunk.css",
-    "static/js/main.2ebcb822.chunk.js"
+    "static/js/2.dfb3f21f.chunk.js",
+    "static/css/main.f6c501ed.chunk.css",
+    "static/js/main.f4e810b2.chunk.js"
   ]
 }
