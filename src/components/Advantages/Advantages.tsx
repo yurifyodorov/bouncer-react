@@ -11,8 +11,8 @@ const Advantages: React.FC = () => {
     <section className="advantages">
         <div className="advantages__item">
             <img src={shipping} alt="free shipping" />
-            <div className="advantages-title">Free shipping</div>
-            <p className="advantages-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            <h2>Free shipping</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                 minim veniam, quis nostrud reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
             </p>
         </div>
