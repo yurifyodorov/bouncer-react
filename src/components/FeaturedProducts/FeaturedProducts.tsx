@@ -3,7 +3,7 @@ import React from 'react';
 import './FeaturedProducts.scss';
 import '../Product/Product.scss';
 
-import Product from '../Product/Product';
+// import Product from '../Product/Product';
 
 // import product1 from '../../img/product1.svg';
 // import product2 from '../../img/product2.svg';
@@ -14,18 +14,6 @@ const FeaturedProducts: React.FC = () => {
       
     <section className="featured-products">
         <h2>Featured products</h2>
-
-        <div className="card-container">
-            <Product />
-            <Product />
-            <Product />
-            <Product />
-            <Product />
-            <Product />
-            <Product />
-            <Product />
-            <Product />
-        </div>
 
         {/* <div className="products">
 

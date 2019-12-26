@@ -1,8 +1,9 @@
 import React from 'react';
 
 import './Bestseller.scss';
+import '../Product/Product.scss';
 
-import ProductCard from '../ProductCard/ProductCard';
+import Product from '../Product/Product';
 
 const Bestseller: React.FC = () => {
     return (
@@ -17,15 +18,16 @@ const Bestseller: React.FC = () => {
                 <a href={'/accessories'} className="nav-link">Accessories</a>
             </nav>
 
-            <div className="products">
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
+            <div className="card-container">
+                <Product />
+                <Product />
+                <Product />
+                <Product />
+                <Product />
+                <Product />
+                <Product />
+                <Product />
+                <Product />
             </div>
 
             <button type="button" className="load-link">Load more</button>

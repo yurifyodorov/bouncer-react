@@ -5,24 +5,30 @@
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   grid-template-rows: repeat(auto-fit, max-content);
   padding: 10px;
+  box-sizing: border-box;
 }
 
 .product {
   background-color: #fff;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.5);
   border-radius: 2px;
+  width: 100%;
   padding: 6%;
 
   &__title {
     white-space: nowrap;
     overflow: hidden;
-    background: linear-gradient(to right, rgb(0, 186, 187) 50%, rgba(0, 186, 187, 0) 100%);
+    background: linear-gradient(to right, rgb(51, 51, 51) 50%, rgba(0, 186, 187, 0) 100%);
     background-clip: text;
     color: transparent;
+    height: min-content;
+    margin-bottom: 5px;
   }
 
   &__image {
-    width: 100%;
+    img {
+      width: 100%;
+    }
   }
 
   &__tags {
@@ -40,7 +46,7 @@
       text-overflow: ellipsis;
       white-space: nowrap;
       background-color: #fff;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      box-shadow: 0 1px 2px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.05);
     }
   }
 
@@ -58,7 +64,7 @@
 
     .star {
       color: #c1c8ce;
-      margin: 0 2px;
+      margin: 0 1px;
     }
 
     .star::before {
@@ -70,8 +76,12 @@
     }
 
     .comments {
+        max-width: 95px;
         margin-left: 10px;
         text-decoration: underline;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
     }
   }
 
@@ -80,6 +90,7 @@
 
     .new-price {
         color: #ff4858;
+        font-weight: bold;
     }
 
     .old-price {
@@ -87,5 +98,41 @@
         text-decoration: line-through;
         margin-left: 10px;
     }
+  }
+}
+
+@media (max-width: 570px) {
+  .card-container {
+    display: block;
+  }
+
+  .product {
+    display: grid;
+    align-content: flex-start;
+    grid-column-gap: 15px;
+    grid-template-columns: min-content auto;
+    grid-template-rows: repeat(3, min-content);
+    width: 100%;
+    height: 100px;
+    margin-bottom: 5px;
+    padding: 10px;
+
+    &__title {
+      margin: 5px 0;
+      font-size: 0.9em;
+    } 
+
+    &__image {
+      grid-row: 1 / -1;
+      img {
+        width: 100px;
+        height: 80px;
+      }
+    }
+  
+    &__tags {
+      display: none;
+    }
+
   }
 }
