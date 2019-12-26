@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/bouncer-react/static/css/main.bbd76226.chunk.css",
-    "main.js": "/bouncer-react/static/js/main.a608a134.chunk.js",
-    "main.js.map": "/bouncer-react/static/js/main.a608a134.chunk.js.map",
+    "main.css": "/bouncer-react/static/css/main.2cfb9d4b.chunk.css",
+    "main.js": "/bouncer-react/static/js/main.2ebcb822.chunk.js",
+    "main.js.map": "/bouncer-react/static/js/main.2ebcb822.chunk.js.map",
     "runtime-main.js": "/bouncer-react/static/js/runtime-main.10afe659.js",
     "runtime-main.js.map": "/bouncer-react/static/js/runtime-main.10afe659.js.map",
-    "static/js/2.6b1fc8eb.chunk.js": "/bouncer-react/static/js/2.6b1fc8eb.chunk.js",
-    "static/js/2.6b1fc8eb.chunk.js.map": "/bouncer-react/static/js/2.6b1fc8eb.chunk.js.map",
+    "static/js/2.202974af.chunk.js": "/bouncer-react/static/js/2.202974af.chunk.js",
+    "static/js/2.202974af.chunk.js.map": "/bouncer-react/static/js/2.202974af.chunk.js.map",
     "index.html": "/bouncer-react/index.html",
-    "precache-manifest.5a26efa9e0181d2afde195cb85f347cd.js": "/bouncer-react/precache-manifest.5a26efa9e0181d2afde195cb85f347cd.js",
+    "precache-manifest.c5b4ef5eae5fd50de56798b5b89bd37a.js": "/bouncer-react/precache-manifest.c5b4ef5eae5fd50de56798b5b89bd37a.js",
     "service-worker.js": "/bouncer-react/service-worker.js",
-    "static/css/main.bbd76226.chunk.css.map": "/bouncer-react/static/css/main.bbd76226.chunk.css.map",
-    "static/js/2.6b1fc8eb.chunk.js.LICENSE": "/bouncer-react/static/js/2.6b1fc8eb.chunk.js.LICENSE",
+    "static/css/main.2cfb9d4b.chunk.css.map": "/bouncer-react/static/css/main.2cfb9d4b.chunk.css.map",
+    "static/js/2.202974af.chunk.js.LICENSE": "/bouncer-react/static/js/2.202974af.chunk.js.LICENSE",
     "static/media/GoPro-Hero-6.svg": "/bouncer-react/static/media/GoPro-Hero-6.9ac06d2b.svg",
     "static/media/Oculus-Rift-profile_grande.svg": "/bouncer-react/static/media/Oculus-Rift-profile_grande.8ad114e1.svg",
     "static/media/Paypal.svg": "/bouncer-react/static/media/Paypal.90e9f48d.svg",
@@ -37,8 +37,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.10afe659.js",
-    "static/js/2.6b1fc8eb.chunk.js",
-    "static/css/main.bbd76226.chunk.css",
-    "static/js/main.a608a134.chunk.js"
+    "static/js/2.202974af.chunk.js",
+    "static/css/main.2cfb9d4b.chunk.css",
+    "static/js/main.2ebcb822.chunk.js"
   ]
 }
